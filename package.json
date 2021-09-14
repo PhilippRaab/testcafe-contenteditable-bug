@@ -1,0 +1,14 @@
+{
+  "name": "testcafe-bug-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "testcafe chrome test.ts",
+    "start": "ws"
+  },
+  "dependencies": {
+    "local-web-server": "^5.1.1",
+    "testcafe": "^1.16.0"
+  }
+}
